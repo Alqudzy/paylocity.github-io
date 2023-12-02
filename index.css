@@ -1,0 +1,80 @@
+body {
+    padding: 0 50px 0 50px;
+}
+li{
+    list-style-type: none;
+    margin: 20px;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+
+}
+ul{
+    float: right;
+}
+#Impact{
+    font-size:25px;
+    /* margin-left: 30px; */
+    margin-top: 50px;
+    color:  black;
+}
+#demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 60%;
+    height: 370px;
+
+}
+#demo h1 {
+    font-size: 45px;
+}
+#demo small {
+    font-size: 15px;
+}
+footer{
+    margin: auto;
+}
+#demo button {
+    border-radius: 20px;
+    height: 35px;
+    width: 130px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.icon{
+    height: 15px;
+    width: 15px;
+}
+li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid aqua;
+}
+.service{
+    border: 0;
+    border-width: 0;
+    font-size: 15px;
+}
+.boxes{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 240px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
